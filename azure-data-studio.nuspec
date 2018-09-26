@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>azure-data-studio</id>
+    <title>Azure Data Studio</title>
+    <version>1.0</version>
+    <authors>Microsoft</authors>
+    <owners>kendaleiv</owners>
+    <summary>Azure Data Studio</summary>
+    <description>Azure Data Studio is a cross-platform database tool for data professionals using the Microsoft family of on-premises and cloud data platforms on Windows, MacOS, and Linux.</description>
+    <projectUrl>https://docs.microsoft.com/en-us/sql/azure-data-studio</projectUrl>
+    <projectSourceUrl>https://github.com/Microsoft/azuredatastudio</projectSourceUrl>
+    <packageSourceUrl>https://github.com/kendaleiv/chocolatey-azure-data-studio</packageSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/kendaleiv/chocolatey-azure-data-studio/master/logo.png</iconUrl>
+    <licenseUrl>https://github.com/Microsoft/azuredatastudio/blob/master/LICENSE.txt</licenseUrl>
+    <bugTrackerUrl>https://github.com/Microsoft/azuredatastudio/issues</bugTrackerUrl>
+    <tags>azure data studio</tags>
+    <copyright>Microsoft Corporation</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
