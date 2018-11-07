@@ -9,11 +9,11 @@ Write-Host "Merge Tasks: `n$mergeTasks"
 $packageArgs = @{
   packageName    = 'azure-data-studio'
   fileType       = 'EXE'
-  url64bit       = 'https://go.microsoft.com/fwlink/?linkid=2030731'
+  url64bit       = 'https://go.microsoft.com/fwlink/?linkid=2038320'
 
   softwareName   = 'Azure Data Studio'
 
-  checksum64     = 'A9051EC9C5896C626EF970FE598D3E1DA953317E582796FB2309BA8F62DF6BB0'
+  checksum64     = '54FEA1585C34BAB88198FD7AFBBDA9947665D0C9028BE934E6123A3D9F23E846'
   checksumType64 = 'sha256'
 
   silentArgs     = "/verysilent /suppressmsgboxes /mergetasks=""$mergeTasks"" /log=""$env:temp\azure-data-studio.log"""
