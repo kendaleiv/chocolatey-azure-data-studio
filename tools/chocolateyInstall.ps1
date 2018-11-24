@@ -2,7 +2,6 @@
 
 $toolsDir = Split-Path $MyInvocation.MyCommand.Definition
 
-$pp = Get-PackageParameters
 $mergeTasks = "!runCode"
 Write-Host "Merge Tasks: `n$mergeTasks"
 
