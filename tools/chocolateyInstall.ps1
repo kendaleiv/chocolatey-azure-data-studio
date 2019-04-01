@@ -12,7 +12,7 @@ $packageArgs = @{
 
   softwareName   = 'Azure Data Studio'
 
-  checksum64     = '153BF594089CBC51D675702C4E4B575D8F71B75D2958FB456D6B4BC1576E18B8'
+  checksum64     = '01CE71522FFAA8982502EBAA68E5EF6B97A6B679379C59916067EA495C8A2000'
   checksumType64 = 'sha256'
 
   silentArgs     = "/verysilent /suppressmsgboxes /mergetasks=""$mergeTasks"" /log=""$env:temp\azure-data-studio.log"""
