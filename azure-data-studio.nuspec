@@ -15,7 +15,7 @@
     <iconUrl>https://cdn.rawgit.com/kendaleiv/chocolatey-azure-data-studio/12c5988a/logo.png</iconUrl>
     <licenseUrl>https://github.com/Microsoft/azuredatastudio/blob/master/LICENSE.txt</licenseUrl>
     <bugTrackerUrl>https://github.com/Microsoft/azuredatastudio/issues</bugTrackerUrl>
-    <tags>azure data studio</tags>
+    <tags>azure-data-studio</tags>
     <copyright>Microsoft Corporation</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
