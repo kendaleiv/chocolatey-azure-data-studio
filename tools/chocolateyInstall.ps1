@@ -8,11 +8,11 @@ Write-Host "Merge Tasks: `n$mergeTasks"
 $packageArgs = @{
   packageName    = 'azure-data-studio'
   fileType       = 'EXE'
-  url64bit       = 'https://sqlopsbuilds.azureedge.net/stable/8f53a316fa00a98264f1ab119641cd540b5af25c/azuredatastudio-windows-setup-1.44.1.exe'
+  url64bit       = 'https://sqlopsbuilds.azureedge.net/stable/88c21b1725a3e79440027bdb7b5a55fb036be0e2/azuredatastudio-windows-setup-1.45.1.exe'
 
   softwareName   = 'Azure Data Studio'
 
-  checksum64     = '6451e55f514a2d5af2e5991eccaa7a141c5959f786df5f77ca390ccb631e4c54'
+  checksum64     = '816a392b499004cb6e199a14523ffe84e81562ce17ebe65c5ae48f5f6a954c56'
   checksumType64 = 'sha256'
 
   silentArgs     = "/verysilent /suppressmsgboxes /mergetasks=""$mergeTasks"" /log=""$env:temp\azure-data-studio.log"""
